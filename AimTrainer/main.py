@@ -1,3 +1,8 @@
+# A simple and fun aim trainer game
+# Grab the mouse and hit those targets
+# Don't forget to share your score with your friends
+# HAPPY AIMING! 🎯💪
+
 import math
 import random
 import time
@@ -166,3 +171,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Have fun improving your aim! 💪
