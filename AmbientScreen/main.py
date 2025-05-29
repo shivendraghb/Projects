@@ -5,21 +5,22 @@ from PyQt5.QtCore import QTimer, Qt
 class AmbientScreen(QWidget):
     def __init__(self):
         super().__init__()
-        self.hue = 0 # starting hue
+        self.hue = 0
         self.initUI()
 
     def initUI(self):
         self.setWindowTitle("AmbientScreen")
-        # self.showFullScreen() # makes the window full screen
+        # Uncomment below for full screen
+        # self.showFullScreen()
         self.resize(600, 400) # default window size
         self.show()
 
         # timer to update background color
         self.timer = QTimer()
         self.timer.timeout.connect(self.update_display)
-        self.timer.start(10) # update every 50 ms
+        self.timer.start(10)
 
-        self.update_display() # initial update
+        self.update_display()
 
     def update_display(self):
 
