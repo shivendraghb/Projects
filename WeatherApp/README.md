@@ -42,12 +42,14 @@ The weather condition ID is then used to generate a matching emoji and display t
 
 ## Example Emojis
 
-**Conditon**	     **Emoji**
-Clear	          ☀️
-Cloudy	        ☁️
-Rain	          🌧️
-Thunderstorm	  ⛈️
-Snow	          ❄️
-Mist/Fog	      🌫️
-Tornado	        🌪️
+| Condition    | Emoji |
+| ------------ | ----- |
+| Clear        | ☀️    |
+| Cloudy       | ☁️    |
+| Rain         | 🌧️   |
+| Thunderstorm | ⛈️    |
+| Snow         | ❄️    |
+| Mist/Fog     | 🌫️   |
+| Tornado      | 🌪️   |
+
 
